@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="game">
+        <div class="container">
+            <div class="jumbotron" id="top">
+                <h1>_ _ _ _ Hangman _ _ _ _</h1>
+
+                <div class="lead">
+                    The theme for this game is music.
+                </div>
+
+                <div class="my-4">
+                    Press any button to begin.
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <h2>Current Word:</h2>
+
+                    <div id="myword">
+                        
+                    </div>
+                </div>
+
+                <div class="panel-body">
+                    <h3>Letters Guessed:</h3>
+
+                    <div id="guessed">
+
+                    </div>
+                </div>
+
+                <div class="panel-footer">
+                    <h3>Guesses Remaining:</h3>
+
+                    <div id="lives">
+
+                    </div>
+
+                    <h3>Wins:</h3>
+
+                    <div id="wins">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

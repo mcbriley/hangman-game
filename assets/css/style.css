@@ -1,0 +1,12 @@
+body {
+    background: white;
+}
+
+#top {
+    text-align: center;
+    background: #ccc;
+}
+
+.panel {
+    text-align: center;
+}
